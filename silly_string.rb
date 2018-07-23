@@ -52,4 +52,5 @@ sentence = "Astounding aardvarks, arguably an ancient animal, always ate apples 
 
 sentence = sentence # Add your gsub chain here
 
-puts sentence tr
+puts sentence.tr('A', 'O')
+puts sentence.tr('a','o')
